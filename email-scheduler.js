@@ -1,5 +1,6 @@
 /**
  * @NApiVersion 2.x
+ * @NScriptType ScheduledScript
  */
 
 define(['N/search', 'N/record', 'N/email', 'N/runtime'],
