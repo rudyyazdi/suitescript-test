@@ -3,10 +3,10 @@
  * @NScriptType ScheduledScript
  */
 
-define(['N/search', 'N/record', 'N/email', 'N/runtime'],
-  function(search, record, email, runtime) {
+define(['N/search', 'N/record', 'N/email', 'N/runtime', 'N/log'],
+  function(search, record, email, runtime, log) {
     function execute(context) {
-      console.log('success')
+      log.debug('success!');
     }
     return {
       execute: execute
